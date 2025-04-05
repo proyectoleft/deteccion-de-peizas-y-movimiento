@@ -1,4 +1,4 @@
-# Sistema Embebido de Detección y Manipulación de Piezas  
+# Sistema Embebido de Detección y Manipulación de Piezas de ajedrez
 
 ## Objetivos  
 - Implementar un sistema embebido basado en **Raspberry Pi** para la detección de piezas usando un modelo **YOLO**.  
