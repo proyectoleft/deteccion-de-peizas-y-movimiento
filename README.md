@@ -5,7 +5,7 @@
 - Desarrollar una **API** que permita visualizar las piezas detectadas en tiempo real.  
 - Permitir que las piezas se muevan desde la API y que el sistema replique el movimiento.  
 - Implementar validaciones para evitar movimientos erróneos y mostrar mensajes de advertencia.
-## Metidikigua incremental
+## Metodologia incremental
 El proyecto sigue un enfoque incremental, donde el sistema se desarrolla en incrementos funcionales definidos. 
 Cada incremento agrega una nueva funcionalidad al sistema, construyendo sobre lo que se ha implementado previamente, hasta completar el producto final
 justificacion:
