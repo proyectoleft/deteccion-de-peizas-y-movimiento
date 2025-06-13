@@ -66,15 +66,14 @@ justificacion:
   - Versión Final: Entregar un tablero virtual funcional y sincronizado con el video.
 - **Validación:** Validar que el tablero virtual refleje las piezas detectadas en el video físico.
 
-### Semana 6: Integración del Sistema
-
-- **Descripción:** Unificar todos los módulos en un sistema funcional, optimizado y sin errores.
-- **Especificación:** Especificar la combinación de `camara.py`, `deteccion.py`, etc., y optimización.
+### Semana 6: Mejora del Tablero Virtual con python-chess 
+- **Descripción:** Reemplazar el tablero virtual de OpenCV por uno basado en python-chess, optimizando la visualización y sincronización.
+- **Especificación:** Especificar virtual_board.py para usar python-chess, integrando detecciones y mejorando estabilidad.
 - **Desarrollo:**
-  - Versión Inicial: Combinar los módulos en un flujo único.
-  - Versiones Intermedias: Optimizar rendimiento (FPS, memoria) y corregir bugs.
-  - Versión Final: Entregar un sistema integrado y optimizado.
-- **Validación:** Validar que el sistema completo funcione sin errores con video en vivo.
+  - Versión Inicial: Implementar un tablero con python-chess, mostrando piezas detectadas.
+  - Versiones Intermedias: Optimizar sincronización (usando caché y estabilidad), mejorar FPS y ajustar parámetros como STABILITY_THRESHOLD.
+  - Versión Final: Entregar un tablero virtual robusto con python-chess, superando las limitaciones del tablero OpenCV. Validación: Validar que el tablero
+    con python-chess sea más preciso y eficiente (FPS, estabilidad) que el de OpenCV, reflejando correctamente las detecciones.
 
 ### Semana 7: Documentación y Preparación de Entrega
 
@@ -82,9 +81,9 @@ justificacion:
 - **Especificación:** Especificar la documentación del código, metodología y resultados.
 - **Desarrollo:**
   - Versión Inicial: Documentar el código y los incrementos realizados.
-  - Versiones Intermedias: Revisar y ajustar la documentación con retroalimentación.
+  - Versiones Intermedias: Revisar y ajustar la documentación.
   - Versión Final: Entregar la documentación completa.
-- **Validación:** Validar que la documentación sea clara, completa y cubra todos los incrementos.
+- **Validación:** Validar que la documentación sea clara y completa.
 
 ### Semana 8: Entrega Final y Revisión
 
