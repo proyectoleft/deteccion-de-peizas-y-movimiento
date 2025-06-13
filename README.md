@@ -72,8 +72,8 @@ justificacion:
 - **Desarrollo:**
   - Versión Inicial: Implementar un tablero con python-chess, mostrando piezas detectadas.
   - Versiones Intermedias: Optimizar sincronización (usando caché y estabilidad), mejorar FPS y ajustar parámetros como STABILITY_THRESHOLD.
-  - Versión Final: Entregar un tablero virtual robusto con python-chess, superando las limitaciones del tablero OpenCV. Validación: Validar que el tablero
-    con python-chess sea más preciso y eficiente (FPS, estabilidad) que el de OpenCV, reflejando correctamente las detecciones.
+  - Versión Final: Entregar un tablero virtual robusto con python-chess, superando las limitaciones del tablero OpenCV.
+- **Validación:** Validar que el tablero con python-chess sea más preciso y eficiente (FPS, estabilidad) que el de OpenCV, reflejando correctamente las detecciones.
 
 ### Semana 7: Documentación y Preparación de Entrega
 
