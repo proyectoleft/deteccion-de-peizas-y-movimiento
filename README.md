@@ -1,4 +1,4 @@
-# Sistema Embebido de Detección y Manipulación de Piezas de ajedrez
+# Sistema de Detección y Manipulación de Piezas de ajedrez
 
 ## Objetivos    
 - Desarrollar una **API** que permita visualizar las piezas detectadas en tiempo real.  
