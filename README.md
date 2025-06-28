@@ -1,8 +1,8 @@
 # Sistema de Detección y Manipulación de Piezas de ajedrez
 
 ## Objetivos    
-- Desarrollar una **API** que permita visualizar las piezas detectadas en tiempo real.  
-- Permitir que las piezas se muevan desde la API y que el sistema replique el movimiento.  
+- Detectar las piezas y registrar la posición de todas las piezas en tiempo real.  
+- Virtualizar la partida de ajedrez el tablero físico y una representación digital sincronizada.  
 - Implementar validaciones para evitar movimientos erróneos y mostrar mensajes de advertencia.
 ## Metodologia incremental
 El proyecto sigue un enfoque incremental, donde el sistema se desarrolla en incrementos funcionales definidos. 
