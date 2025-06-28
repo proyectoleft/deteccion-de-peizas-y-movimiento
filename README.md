@@ -94,5 +94,7 @@ justificacion:
   - Versión Final: Entregar el proyecto completo con documentación final.
 - **Validación:** Validar con una presentación o entrega formal ante usuarios o revisores.
 
+### Comando para inmplementar las librerias a utilizar
+- pip install opencv-python numpy python-chess screeninfo cairosvg Pillow ultralytics
 
 
